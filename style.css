@@ -462,6 +462,18 @@ opacity: 0;
     transform: translateX(-50%) translateY(4px);
 }
 
+.contact__icon--calendly {
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+}
+
+.contact__icon--calendly i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
 /* FOOTER */
 
 footer {
