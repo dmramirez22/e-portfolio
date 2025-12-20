@@ -432,6 +432,36 @@ opacity: 0;
   display: inline-block;
 }
 
+.contact__icon {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.contact__phone {
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    white-space: nowrap;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: all 200ms ease;
+}
+
+.contact__icon:hover .contact__phone {
+    opacity: 1;
+    transform: translateX(-50%) translateY(4px);
+}
+
 /* FOOTER */
 
 footer {
